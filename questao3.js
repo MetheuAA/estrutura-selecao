@@ -1,6 +1,8 @@
 //Questão 3: Como você pode usar uma declaração if para verificar se uma variável é do tipo string em JavaScript?
-let dia = "sábado";
+var mensagem = "Sou eu"
+if (typeof mensagem === 'string'){
+console.log ("É uma string")
 
-if (dia === "sábado") {
-  console.log("Hoje é sabado");
+}else{
+  console.log("Não é uma string")
 }
