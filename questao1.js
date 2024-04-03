@@ -2,5 +2,5 @@
 let idade = 20;
 
 if (idade > 10) {
-    console.log ("Você é menor que 10")
+    console.log ("Você é maior que 10")
 }
